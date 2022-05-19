@@ -1,0 +1,110 @@
+@media (min-width: 320px) {
+    .promo {
+        margin: 150px auto auto auto;
+
+        &-title {
+            &__name {
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 29px;
+                color: #000000;
+                text-align: center;
+
+                &>span {
+                    font-size: 24px;
+                    font-weight: 600;
+                    line-height: 29px;
+                    color: $m-color;
+                }
+            }
+
+            &__text {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+                color: #000000;
+                text-align: center;
+            }
+        }
+
+        &-item {
+            width: 232px;
+            margin: 109px auto auto auto;
+
+            &>img {
+                width: 100%;
+            }
+        }
+
+        &-links {
+            margin: 180px auto auto auto;
+            width: 18em;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .promo {
+        margin: 160px auto auto auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+
+        &-title {
+            width: 540px;
+
+            &__name {
+                text-align: inherit;
+            }
+
+            &__text {
+                width: 313px;
+                text-align: start;
+            }
+        }
+
+        &-item {
+            margin: unset;
+            width: 284px;
+        }
+
+        &-links {
+            margin: 10em 0px auto;
+        }
+    }
+}
+
+@media (min-width: 1221px) {
+    .promo {
+        width: 1020px;
+
+        @media (min-width: 1440px) {
+            &-title {
+                &__name {
+                    font-size: 42px;
+                    line-height: 63px;
+
+                    &>span {
+                        font-size: 42px;
+                    }
+                }
+
+                &__text {
+                    font-size: 20px;
+                    line-height: 25px;
+                }
+            }
+
+            &-item {
+                width: 464px;
+            }
+
+            &-links {
+                margin: 14em 0px auto;
+            }
+        }
+    }
+}

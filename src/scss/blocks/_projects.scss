@@ -1,0 +1,136 @@
+@media (min-width: 320px) {
+    .projects {
+        margin: 75px auto auto auto;
+
+        &-title {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 29px;
+            color: $b;
+            text-align: center;
+
+            &>span {
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 29px;
+                color: $m-color;
+            }
+        }
+
+        &-cards {
+            margin: 50px auto auto auto;
+            width: 100%;
+
+            &__item {
+                width: 277px;
+                height: 400px;
+                background: $w;
+                box-shadow: 4px 4px 27px rgba(0, 0, 0, 0.15);
+                margin: 46px auto;
+                transition: 0.7s;
+
+                &--text {
+                    height: 76px;
+                    padding-left: 17px;
+                    font-weight: 300;
+                    font-size: 22px;
+                    line-height: 27px;
+                    color: $b;
+
+                    &>b {
+                        font-size: 22px;
+                        line-height: 27px;
+                        color: $b;
+                    }
+                }
+
+                &--btn {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 117px;
+                    width: 140px;
+                    height: 41px;
+                    background: $m-color;
+                    border-radius: 5px;
+                    border: none;
+                    cursor: pointer;
+                    -moz-transition: 0.4s;
+                    -webkit-transition: 0.4s;
+                    -o-transition: 0.4s;
+
+                    &>a {
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 24px;
+                        color: $w;
+                    }
+                }
+
+                &--btn:hover {
+                    background: $b;
+                }
+            }
+
+            &__item:first-child {
+                margin-top: 0;
+            }
+
+            &__item:hover {
+                -moz-transform: scale(1.04);
+                -webkit-transform: scale(1.04);
+                -o-transform: scale(1.04);
+            }
+        }
+
+        @media (min-width: 768px) {
+            &-cards {
+                display: flex;
+                align-items: baseline;
+                flex-wrap: wrap;
+            }
+        }
+
+        @media (min-width: 851px) {
+            &-cards {
+                width: 80%;
+            }
+        }
+
+        @media (min-width: 868px) {
+            &-cards {
+                width: 100%;
+            }
+        }
+
+        @media (min-width: 1128px) {
+            &-cards {
+                width: 99%;
+            }
+        }
+
+        @media (min-width: 1140px) {
+            &-cards {
+                width: 85%;
+            }
+        }
+
+        @media (min-width: 1325px) {
+            &-cards {
+                width: 72%;
+            }
+        }
+
+        @media (min-width: 1559px) {
+            &-cards {
+                width: 63%;
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .projects {
+        margin: 150px auto auto auto;
+    }
+}

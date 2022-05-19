@@ -1,0 +1,43 @@
+@import './base/variables';
+
+@import './blocks/header';
+@import './blocks/promo';
+@import './blocks/about';
+@import './blocks/skills';
+@import './blocks/projects';
+@import './blocks/connect';
+@import './blocks/footer';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media (min-width: 1024px) {
+    .container {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
