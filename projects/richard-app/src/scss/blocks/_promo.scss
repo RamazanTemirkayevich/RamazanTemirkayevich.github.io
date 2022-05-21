@@ -1,0 +1,189 @@
+@media (min-width: 320px) {
+    .promo {
+        position: relative;
+        width: 100%;
+        height: 800px;
+        background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+        border-radius: 0px;
+        z-index: 1;
+
+        &-box {
+            padding-top: 100px;
+            display: flex;
+            margin: auto;
+            width: 290px;
+
+            &__title {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                &--name {
+                    font-size: 30px;
+                    line-height: 30px;
+                    color: #FFFFFF;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                }
+
+                &--text {
+                    font-size: 22px;
+                    line-height: 30px;
+                    color: #FFFFFF;
+                    text-align: center;
+                }
+
+                &--btn {
+                    width: 170px;
+                    height: 66px;
+                    background: #FC0A7E;
+                    border-radius: 3px;
+                    border: none;
+                    cursor: pointer;
+                    margin-top: 5em;
+    
+                    &>span {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 26px;
+                        text-align: center;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+
+            &__img {
+                position: absolute;
+                width: 290px;
+                top: 31em;
+                left: 17px;
+
+                &>img {
+                    width: 100%;
+                }
+            }
+        }
+    }    
+}
+
+@media (min-width: 768px) {
+    .promo {
+        position: relative;
+        width: 100%;
+        height: 800px;
+        background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+        border-radius: 0px;
+        z-index: 1;
+
+        &-box {
+            margin-top: 0;
+            margin-left: 20px;
+            display: flex;
+
+            &__title {
+                z-index: 1;
+                align-items: flex-start;
+
+                &--name {
+                    font-size: 80px;
+                    line-height: 80px;
+                    color: #FFFFFF;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                    text-align: start;
+                }
+    
+                &--text {
+                    font-size: 30px;
+                    line-height: 44px;
+                    color: #FFFFFF;
+                    text-align: start;
+                }
+    
+                &--btn {
+                    width: 170px;
+                    height: 66px;
+                    background: #FC0A7E;
+                    border-radius: 3px;
+                    border: none;
+                    cursor: pointer;
+    
+                    &>span {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 26px;
+                        text-align: center;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+
+            &__img {
+                position: absolute;
+                width: 550px;
+                top: 10em;
+                right: 0;
+                left: unset;
+            }
+        }
+    }
+}
+
+@media (min-width: 1440px) {
+    .promo {
+        position: relative;
+        width: 100%;
+        height: 800px;
+        background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+        border-radius: 0px;
+        z-index: 1;
+
+        &-box {
+            padding-top: unset;
+            margin-top: 177px;
+            margin-left: 144px;
+            display: flex;
+
+            &__title {
+
+                &--name {
+                    font-size: 80px;
+                    line-height: 80px;
+                    color: #FFFFFF;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                }
+    
+                &--text {
+                    font-size: 30px;
+                    line-height: 44px;
+                    color: #FFFFFF;
+                }
+    
+                &--btn {
+                    width: 170px;
+                    height: 66px;
+                    background: #FC0A7E;
+                    border-radius: 3px;
+                    border: none;
+                    cursor: pointer;
+    
+                    &>span {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 26px;
+                        text-align: center;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+
+            &__img {
+                position: absolute;
+                top: 8em;
+                right: 44px;
+                width: unset;
+            }
+        }
+    }
+}

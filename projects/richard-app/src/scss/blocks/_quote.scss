@@ -1,0 +1,119 @@
+@media (min-width: 320px) {
+    .quote {
+        margin: 60px auto ;
+        text-align: center;
+        width: 290px;
+
+        &-title {
+            margin: 63px auto auto auto;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 40px;
+            width: 290px;
+        }
+
+        &-subtitle {
+            display: flex;
+            width: 290px;
+            justify-content: space-between;
+            align-items: center;
+            margin: auto;
+            font-weight: 400;
+
+            &>hr {
+                width: 30px;
+                height: 2px;
+                background: #D3D3D3;
+                border-radius: 0px;
+                border: none;
+            }
+
+            &>span {
+                font-weight: 600;
+                margin: 2em auto; 
+            }
+        }
+
+        &-img {
+            display: none;
+        }
+
+        &-corporations {
+            width: 290px;
+            margin: 6em auto;
+            height: 33em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+
+            &>img {
+                width: 50%;
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .quote {
+        width: 100%;
+
+        &-title {
+            width: 100%;
+        }
+
+        &-corporations {
+            flex-direction: row;
+            width: 100%;
+            height: 10em;
+
+            &>img {
+                width: 15%;
+            }
+        }
+    }
+}
+
+@media (min-width: 1440px) {
+    .quote {
+        margin: 160px auto auto auto ;
+        text-align: center;
+
+        &-title {
+            margin: 63px auto auto auto;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 40px;
+            width: 700px;
+        }
+
+        &-subtitle {
+            display: flex;
+            width: 301px;
+            justify-content: space-between;
+            align-items: center;
+            margin: auto;
+            font-weight: 400;
+
+            &>hr {
+                width: 30px;
+                height: 2px;
+                background: #D3D3D3;
+                border-radius: 0px;
+                border: none;
+            }
+
+            &>span {
+                font-weight: 600;
+            }
+        }
+
+        &>img:last-child {
+            margin: 186px auto auto auto;
+        }
+
+        &-corporations {
+            display: none;
+        }
+    }
+}

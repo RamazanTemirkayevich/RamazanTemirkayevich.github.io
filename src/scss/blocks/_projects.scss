@@ -25,9 +25,26 @@
                 width: 277px;
                 height: 400px;
                 background: $w;
-                box-shadow: 4px 4px 27px rgba(0, 0, 0, 0.15);
+                box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.05);
                 margin: 46px auto;
                 transition: 0.7s;
+
+                &--img {
+                    width: 100%;
+                    height: 215px;
+                    background: #F1EFEF;
+                    
+                    &>img {
+                        width: 100%;
+                        height: 100%;
+                        opacity: 0.4;
+                        transition: 0.7s;
+                    }
+
+                    &>img:hover {
+                        opacity: unset;
+                    }
+                }
 
                 &--text {
                     height: 76px;

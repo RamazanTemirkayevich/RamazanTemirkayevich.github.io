@@ -1,0 +1,89 @@
+@media (min-width: 320px) {
+    .first-screen {
+        padding-left: 14px;
+        padding-right: 14px;
+        height: 60em;
+        margin: 80px auto auto auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        &__title {
+            width: 290px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            &--text {
+                font-size: 12px;
+                line-height: 20px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #A8A8A8;
+            }
+
+            &--name {
+                font-size: 22px;
+                line-height: 30px;
+                color: #000000;
+            }
+        }
+
+        &__img {
+            width: 290px;
+
+            &>img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .first-screen {
+        margin: 80px auto auto auto;
+        flex-direction: row;
+        height: unset;
+    }
+}
+
+@media (min-width: 1440px) {
+    .first-screen {
+        padding-left: 200px;
+        padding-right: 200px;
+        height: 637px;
+        margin: 80px auto auto auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        &__title {
+            width: 450px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            text-align: start;
+
+            &--text {
+                font-size: 12px;
+                line-height: 20px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #A8A8A8;
+            }
+
+            &--name {
+                font-size: 38px;
+                line-height: 48px;
+                color: #000000;
+            }
+        }
+
+        &__img {
+            width: unset;
+        }
+    }
+}

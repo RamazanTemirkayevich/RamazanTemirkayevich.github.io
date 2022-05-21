@@ -1,0 +1,53 @@
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/device';
+@import 'blocks/first-screen';
+@import 'blocks/second-screen';
+@import 'blocks/third-screen';
+@import 'blocks/icons';
+@import 'blocks/statistic';
+@import 'blocks/burger';
+@import 'blocks/salat';
+@import 'blocks/quote';
+@import 'blocks/question';
+@import 'blocks/subscribe';
+@import 'blocks/footer';
+
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;300;400;500;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+* {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #6B6B6B;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+@media (min-width: 1024px) {
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container {
+        padding-left: 72px;
+        padding-right: 72px;
+    }
+}
